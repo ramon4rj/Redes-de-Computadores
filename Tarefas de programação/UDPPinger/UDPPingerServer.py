@@ -7,7 +7,7 @@ from socket import *
 # Notice the use of SOCK_DGRAM for UDP packets
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 # Assign IP addres and port number to socket
-serverSocket.bind(('192.168.0.105', 12000))
+serverSocket.bind(('127.0.0.1', 12000))
 
 while True:
     print("Running...")

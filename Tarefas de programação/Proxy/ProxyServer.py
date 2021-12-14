@@ -2,7 +2,7 @@ from socket import *
 
 # Create a server socket, bind it to a port and start listening
 tcpSerSock = socket(AF_INET, SOCK_STREAM)
-tcpSerSock.bind(('192.168.0.105', 8888))
+tcpSerSock.bind(('127.0.0.1', 8888))
 tcpSerSock.listen(100)
 
 while 1:

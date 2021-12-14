@@ -4,7 +4,7 @@ from socket import *
 timeout = 1 # in second
  
 #Assign server
-serverName = '192.168.0.105'
+serverName = '127.0.0.1'
 
 # Create UDP client socket
 # Note the use of SOCK_DGRAM for UDP datagram packet

@@ -8,7 +8,7 @@ from datetime import datetime
 serverSocket = socket(AF_INET, SOCK_STREAM)
 
 #define a server
-serverName = '192.168.0.105'
+serverName = '127.0.0.1'
 
 # Assign a port number
 serverPort = 6789
