@@ -50,7 +50,7 @@ while 1:
 			try:
 				# Connect to the socket to port 80
 				# This is where it was supossed to connect using the browser, since its not the case it will conect to the IP adressed to the WebServer.py
-				c.connect(('192.168.0.105', 6789))
+				c.connect(('127.0.0.1', 6789))
 				print('chegou aqui 1')
 				# Create a temporary file on this socket and ask port 80 for the file requested by the client
 				#fileobj = c.makefile()
